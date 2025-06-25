@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Hero = () => {
@@ -44,8 +45,8 @@ const Hero = () => {
           <div className="relative order-first lg:order-last">
             <div className="bg-gradient-to-br from-teal-100 to-blue-100 rounded-2xl p-4 sm:p-8">
               <img 
-                src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=800&q=80" 
-                alt="Professional using XMRT Glasses"
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80" 
+                alt="Professional conversation with XMRT Glasses providing real-time emotional insights"
                 className="w-full h-64 sm:h-80 lg:h-96 object-cover rounded-xl shadow-2xl"
               />
             </div>
