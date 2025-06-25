@@ -1,73 +1,91 @@
-# Welcome to your Lovable project
 
-## Project info
+# XMRT Glasses - AI-Powered Smart Glasses
+
+XMRT Glasses provide real-time emotional insight through advanced AI analysis of facial expressions and body language. Designed for professionals who need to excel in communication, negotiation, and human interaction.
+
+## Project Overview
+
+This is the official marketing website for XMRT Glasses, showcasing our revolutionary smart glasses technology that empowers professionals across various industries including therapy, law enforcement, sales, education, and journalism.
 
 **URL**: https://lovable.dev/projects/80c39d26-4675-4fbf-a826-5577fa3d5768
 
-## How can I edit this code?
+## Key Features
 
-There are several ways of editing your application.
+- **Real-time Analysis**: Advanced AI algorithms analyze micro-expressions and body language
+- **Discreet Coaching**: Subtle audio cues and visual prompts guide your responses
+- **Professional Design**: Lightweight, stylish smart glasses comfortable for all-day wear
+- **Privacy-First**: Enterprise-grade encryption with optional local processing
+- **Multilingual Support**: Works across cultures with expanding language capabilities
 
-**Use Lovable**
+## Target Professionals
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/80c39d26-4675-4fbf-a826-5577fa3d5768) and start prompting.
+- Therapists & Counselors
+- Law Enforcement & Investigators  
+- Negotiators & Sales Professionals
+- Educators & Social Workers
+- Journalists & Interviewers
 
-Changes made via Lovable will be committed automatically to this repo.
+## How to Edit This Project
 
-**Use your preferred IDE**
+There are several ways to modify this website:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**Use Lovable (Recommended)**
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Visit the [Lovable Project](https://lovable.dev/projects/80c39d26-4675-4fbf-a826-5577fa3d5768) and start making changes through AI-powered editing.
 
-Follow these steps:
+**Local Development**
+
+Requirements: Node.js & npm - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to project directory
+cd xmrt-glasses-website
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+**GitHub Integration**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Use "Export to GitHub" to sync with your repository
+- Edit files directly in GitHub
+- Use GitHub Codespaces for cloud-based development
 
-**Use GitHub Codespaces**
+## Technology Stack
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This website is built with modern web technologies:
 
-## What technologies are used for this project?
+- **React** - Component-based UI framework
+- **TypeScript** - Type-safe JavaScript
+- **Vite** - Fast build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework
+- **Shadcn/ui** - High-quality UI components
+- **Lucide React** - Beautiful icon library
 
-This project is built with:
+## Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Deploy instantly using Lovable:
+1. Open your [Lovable Project](https://lovable.dev/projects/80c39d26-4675-4fbf-a826-5577fa3d5768)
+2. Click Share → Publish
+3. Your site will be live with a custom URL
 
-## How can I deploy this project?
+## Custom Domain Setup
 
-Simply open [Lovable](https://lovable.dev/projects/80c39d26-4675-4fbf-a826-5577fa3d5768) and click on Share -> Publish.
+Connect your own domain in Project → Settings → Domains. 
+Read more: [Custom Domain Guide](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
 
-## Can I connect a custom domain to my Lovable project?
+## About XMRT Solutions
 
-Yes, you can!
+Founded by experts in AI, psychology, and professional communication, XMRT Solutions is based in Costa Rica with a global vision. We're democratizing emotional intelligence for professionals worldwide through cutting-edge smart glasses technology.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+**Contact**: xmrtsolutions@gmail.com
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+© 2025 XMRT Solutions. All rights reserved.
