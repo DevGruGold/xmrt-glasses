@@ -1,0 +1,194 @@
+{
+  "header": {
+    "brand": "XMRT",
+    "subtitle": "Glasses",
+    "features": "Features",
+    "useCases": "Use Cases",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "requestDemo": "Request Demo",
+    "buyNow": "Buy Now"
+  },
+  "hero": {
+    "title": "Read the Room with",
+    "subtitle": "AI-Powered Emotional Intelligence",
+    "description": "XMRT Glasses provide real-time insights into facial expressions and body language, giving you the edge in negotiations, sales, and professional interactions.",
+    "requestDemo": "Request a Demo",
+    "buyNow": "Buy Now",
+    "liveAnalysis": "Live Analysis",
+    "confidence": "Confidence"
+  },
+  "features": {
+    "title": "Advanced Features",
+    "subtitle": "Cutting-edge technology designed for professionals",
+    "realTime": {
+      "title": "Real-time Analysis",
+      "description": "Get instant insights into emotional states and engagement levels during conversations."
+    },
+    "expressions": {
+      "title": "Facial Expression Recognition",
+      "description": "Advanced AI analyzes micro-expressions to detect genuine emotions and reactions."
+    },
+    "bodyLanguage": {
+      "title": "Body Language Detection",
+      "description": "Comprehensive analysis of posture, gestures, and movement patterns."
+    },
+    "privacy": {
+      "title": "Privacy Focused",
+      "description": "All processing happens locally on your device. Your data never leaves your glasses."
+    },
+    "battery": {
+      "title": "All-day Battery",
+      "description": "Extended battery life ensures uninterrupted performance throughout your workday."
+    },
+    "integration": {
+      "title": "Seamless Integration",
+      "description": "Works with your existing devices and workflows without disruption."
+    }
+  },
+  "useCases": {
+    "title": "Use Cases",
+    "subtitle": "Perfect for various professional scenarios",
+    "sales": {
+      "title": "Sales Meetings",
+      "description": "Understand client reactions and adjust your pitch in real-time for better closing rates."
+    },
+    "negotiations": {
+      "title": "Negotiations",
+      "description": "Gain insights into the other party's emotional state and leverage points during critical discussions."
+    },
+    "interviews": {
+      "title": "Job Interviews",
+      "description": "Read interviewer reactions and adjust your responses to make a stronger impression."
+    },
+    "presentations": {
+      "title": "Presentations",
+      "description": "Monitor audience engagement and adapt your delivery for maximum impact."
+    },
+    "networking": {
+      "title": "Networking Events",
+      "description": "Identify genuine interest and build more meaningful professional connections."
+    },
+    "therapy": {
+      "title": "Therapy Sessions",
+      "description": "Help therapists better understand client emotional states and breakthrough moments."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Simple three-step process to enhance your professional interactions",
+    "step1": {
+      "title": "Wear & Activate",
+      "description": "Put on your XMRT Glasses and activate the analysis mode with a simple voice command or gesture."
+    },
+    "step2": {
+      "title": "Real-time Analysis",
+      "description": "Our AI processes facial expressions and body language in real-time, providing instant insights."
+    },
+    "step3": {
+      "title": "Get Insights",
+      "description": "Receive discrete notifications about emotional states, engagement levels, and behavioral patterns."
+    }
+  },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "subtitle": "Flexible pricing options to suit your professional needs",
+    "hardware": {
+      "title": "Hardware Kit",
+      "price": "$2,999",
+      "period": "one-time",
+      "features": [
+        "XMRT Smart Glasses",
+        "Charging Case",
+        "Premium Lens Options",
+        "1 Year Warranty",
+        "Free Setup & Training"
+      ],
+      "cta": "Order Hardware"
+    },
+    "pro": {
+      "title": "Pro App Subscription",
+      "price": "$99",
+      "period": "/month",
+      "features": [
+        "Real-time Analysis",
+        "Advanced Emotion Detection",
+        "Body Language Insights",
+        "Meeting Recordings & Analytics",
+        "Cloud Sync & Backup",
+        "Priority Support"
+      ],
+      "cta": "Start Free Trial"
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "price": "Custom",
+      "period": "pricing",
+      "features": [
+        "Everything in Pro",
+        "Team Management Dashboard",
+        "Custom Integration",
+        "On-premise Deployment",
+        "Dedicated Account Manager",
+        "Training & Onboarding"
+      ],
+      "cta": "Contact Sales"
+    }
+  },
+  "about": {
+    "title": "About XMRT Solutions",
+    "description": "We are pioneers in emotional intelligence technology, developing cutting-edge solutions that bridge the gap between human intuition and artificial intelligence.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower professionals with real-time emotional intelligence, enabling better communication, stronger relationships, and more successful outcomes in every interaction."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "A world where technology enhances human empathy and understanding, making every conversation more meaningful and productive."
+    },
+    "location": "San José, Costa Rica"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Ready to revolutionize your professional interactions? Contact us today to learn more about XMRT Glasses.",
+    "email": "Email: hello@xmrt.com",
+    "followUs": "Follow us:",
+    "form": {
+      "title": "Send us a Message",
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "your.email@company.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your needs...",
+      "send": "Send Message",
+      "success": "Message sent successfully!"
+    },
+    "bookDemo": "Book Demo Call"
+  },
+  "footer": {
+    "description": "Revolutionizing professional communication with AI-powered emotional intelligence.",
+    "product": "Product",
+    "features": "Features",
+    "pricing": "Pricing",
+    "demo": "Request Demo",
+    "company": "Company",
+    "about": "About Us",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2024 XMRT Solutions. All rights reserved."
+  },
+  "testimonials": {
+    "quote1": "XMRT Glasses have transformed how I approach client meetings. The real-time insights help me read the room and adjust my strategy instantly.",
+    "author1": "Sarah Chen",
+    "role1": "Sales Director, TechCorp",
+    "quote2": "As a negotiator, understanding subtle emotional cues is crucial. These glasses give me an unprecedented advantage in high-stakes discussions.",
+    "author2": "Marcus Rodriguez",
+    "role2": "Legal Counsel, Global Enterprises",
+    "quote3": "The emotional intelligence insights have made me a better therapist. I can now respond more effectively to my clients' unspoken needs.",
+    "author3": "Dr. Amira Hassan",
+    "role3": "Licensed Therapist"
+  }
+}

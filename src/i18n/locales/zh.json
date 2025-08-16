@@ -1,0 +1,194 @@
+{
+  "header": {
+    "brand": "XMRT",
+    "subtitle": "眼镜",
+    "features": "功能特性",
+    "useCases": "使用场景",
+    "pricing": "价格方案",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "requestDemo": "申请演示",
+    "buyNow": "立即购买"
+  },
+  "hero": {
+    "title": "用智能眼镜",
+    "subtitle": "AI驱动的情感智能",
+    "description": "XMRT眼镜提供面部表情和肢体语言的实时洞察，在谈判、销售和专业互动中为您提供优势。",
+    "requestDemo": "申请演示",
+    "buyNow": "立即购买",
+    "liveAnalysis": "实时分析",
+    "confidence": "置信度"
+  },
+  "features": {
+    "title": "先进功能",
+    "subtitle": "为专业人士设计的前沿技术",
+    "realTime": {
+      "title": "实时分析",
+      "description": "在对话过程中即时获得情绪状态和参与度的洞察。"
+    },
+    "expressions": {
+      "title": "面部表情识别",
+      "description": "先进的AI分析微表情，检测真实的情绪和反应。"
+    },
+    "bodyLanguage": {
+      "title": "肢体语言检测",
+      "description": "全面分析姿态、手势和运动模式。"
+    },
+    "privacy": {
+      "title": "注重隐私",
+      "description": "所有处理都在您的设备上本地进行。您的数据永远不会离开您的眼镜。"
+    },
+    "battery": {
+      "title": "全天电池续航",
+      "description": "超长电池续航确保在整个工作日中不间断的性能表现。"
+    },
+    "integration": {
+      "title": "无缝集成",
+      "description": "与您现有的设备和工作流程无缝协作，不造成中断。"
+    }
+  },
+  "useCases": {
+    "title": "使用场景",
+    "subtitle": "适用于各种专业场景",
+    "sales": {
+      "title": "销售会议",
+      "description": "了解客户反应并实时调整您的推销策略，提高成交率。"
+    },
+    "negotiations": {
+      "title": "商务谈判",
+      "description": "在关键讨论中洞察对方的情绪状态和影响点。"
+    },
+    "interviews": {
+      "title": "工作面试",
+      "description": "读懂面试官的反应并调整您的回答，留下更深刻的印象。"
+    },
+    "presentations": {
+      "title": "演示展示",
+      "description": "监控观众参与度并调整您的表达方式以获得最大影响。"
+    },
+    "networking": {
+      "title": "商务社交",
+      "description": "识别真正的兴趣并建立更有意义的专业联系。"
+    },
+    "therapy": {
+      "title": "心理治疗",
+      "description": "帮助治疗师更好地理解客户的情绪状态和突破时刻。"
+    }
+  },
+  "howItWorks": {
+    "title": "工作原理",
+    "subtitle": "简单的三步流程，提升您的专业互动体验",
+    "step1": {
+      "title": "佩戴并激活",
+      "description": "戴上您的XMRT眼镜，通过简单的语音命令或手势激活分析模式。"
+    },
+    "step2": {
+      "title": "实时分析",
+      "description": "我们的AI实时处理面部表情和肢体语言，提供即时洞察。"
+    },
+    "step3": {
+      "title": "获得洞察",
+      "description": "接收关于情绪状态、参与度和行为模式的谨慎通知。"
+    }
+  },
+  "pricing": {
+    "title": "选择您的方案",
+    "subtitle": "灵活的价格选项满足您的专业需求",
+    "hardware": {
+      "title": "硬件套装",
+      "price": "$2,999",
+      "period": "一次性",
+      "features": [
+        "XMRT智能眼镜",
+        "充电盒",
+        "高级镜片选项",
+        "1年保修",
+        "免费设置和培训"
+      ],
+      "cta": "订购硬件"
+    },
+    "pro": {
+      "title": "专业应用订阅",
+      "price": "$99",
+      "period": "/月",
+      "features": [
+        "实时分析",
+        "高级情绪检测",
+        "肢体语言洞察",
+        "会议录制和分析",
+        "云同步和备份",
+        "优先支持"
+      ],
+      "cta": "开始免费试用"
+    },
+    "enterprise": {
+      "title": "企业版",
+      "price": "定制",
+      "period": "价格",
+      "features": [
+        "专业版所有功能",
+        "团队管理仪表板",
+        "定制集成",
+        "本地部署",
+        "专属客户经理",
+        "培训和入职指导"
+      ],
+      "cta": "联系销售"
+    }
+  },
+  "about": {
+    "title": "关于XMRT解决方案",
+    "description": "我们是情感智能技术的先驱，开发前沿解决方案，连接人类直觉与人工智能。",
+    "mission": {
+      "title": "我们的使命",
+      "description": "为专业人士提供实时情感智能，实现更好的沟通、更强的关系和每次互动中更成功的结果。"
+    },
+    "vision": {
+      "title": "我们的愿景",
+      "description": "创造一个技术增强人类同理心和理解的世界，让每次对话都更有意义和成效。"
+    },
+    "location": "哥斯达黎加圣何塞"
+  },
+  "contact": {
+    "title": "联系我们",
+    "description": "准备好革新您的专业互动了吗？今天就联系我们，了解更多关于XMRT眼镜的信息。",
+    "email": "邮箱: hello@xmrt.com",
+    "followUs": "关注我们：",
+    "form": {
+      "title": "发送消息",
+      "name": "姓名",
+      "namePlaceholder": "您的全名",
+      "email": "邮箱",
+      "emailPlaceholder": "your.email@company.com",
+      "message": "消息",
+      "messagePlaceholder": "告诉我们您的需求...",
+      "send": "发送消息",
+      "success": "消息发送成功！"
+    },
+    "bookDemo": "预约演示通话"
+  },
+  "footer": {
+    "description": "用AI驱动的情感智能革新专业沟通。",
+    "product": "产品",
+    "features": "功能特性",
+    "pricing": "价格方案",
+    "demo": "申请演示",
+    "company": "公司",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "copyright": "© 2024 XMRT Solutions. 保留所有权利。"
+  },
+  "testimonials": {
+    "quote1": "XMRT眼镜改变了我处理客户会议的方式。实时洞察帮助我读懂现场气氛并即时调整策略。",
+    "author1": "Sarah Chen",
+    "role1": "销售总监，TechCorp",
+    "quote2": "作为谈判专家，理解微妙的情绪线索至关重要。这些眼镜在高风险讨论中为我提供了前所未有的优势。",
+    "author2": "Marcus Rodriguez",
+    "role2": "法律顾问，Global Enterprises",
+    "quote3": "情感智能洞察让我成为了更好的治疗师。我现在能够更有效地回应客户未表达的需求。",
+    "author3": "Amira Hassan博士",
+    "role3": "持证治疗师"
+  }
+}

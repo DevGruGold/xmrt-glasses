@@ -1,33 +1,41 @@
 
 import React from 'react';
-import { Eye, Headphones, Globe, Glasses, Shield } from 'lucide-react';
+import { Eye, Headphones, Globe, Glasses, Shield, Battery, Zap } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Features = () => {
+  const { t } = useTranslation();
+  
   const features = [
     {
+      icon: <Zap className="w-6 h-6 sm:w-8 sm:h-8" />,
+      title: t('features.realTime.title'),
+      description: t('features.realTime.description')
+    },
+    {
       icon: <Eye className="w-6 h-6 sm:w-8 sm:h-8" />,
-      title: "Real-time Facial Expression & Body Language Analysis",
-      description: "Advanced AI algorithms analyze micro-expressions and body language cues in milliseconds, providing instant insights into emotional states."
+      title: t('features.expressions.title'),
+      description: t('features.expressions.description')
     },
     {
       icon: <Headphones className="w-6 h-6 sm:w-8 sm:h-8" />,
-      title: "Discreet Audio & Visual Coaching Prompts",
-      description: "Receive subtle audio cues or HUD overlay notifications that guide your responses without disrupting natural conversation flow."
-    },
-    {
-      icon: <Globe className="w-6 h-6 sm:w-8 sm:h-8" />,
-      title: "Multilingual Support",
-      description: "Works seamlessly across cultures with support for English, Spanish, and expanding language capabilities for global professionals."
-    },
-    {
-      icon: <Glasses className="w-6 h-6 sm:w-8 sm:h-8" />,
-      title: "Stylish & Portable Smart Glasses",
-      description: "Lightweight, professional design that looks like premium eyewear while housing cutting-edge technology. Comfortable for all-day wear."
+      title: t('features.bodyLanguage.title'),
+      description: t('features.bodyLanguage.description')
     },
     {
       icon: <Shield className="w-6 h-6 sm:w-8 sm:h-8" />,
-      title: "Cloud-based AI with Privacy-First Options",
-      description: "Secure cloud processing with optional local processing modes. Your data stays private with enterprise-grade encryption."
+      title: t('features.privacy.title'),
+      description: t('features.privacy.description')
+    },
+    {
+      icon: <Battery className="w-6 h-6 sm:w-8 sm:h-8" />,
+      title: t('features.battery.title'),
+      description: t('features.battery.description')
+    },
+    {
+      icon: <Globe className="w-6 h-6 sm:w-8 sm:h-8" />,
+      title: t('features.integration.title'),
+      description: t('features.integration.description')
     }
   ];
 
@@ -36,10 +44,10 @@ const Features = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
-            Powerful Features for Professional Excellence
+            {t('features.title')}
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-            XMRT Glasses combine advanced AI, sleek hardware, and intuitive software to give you unprecedented insight into human communication.
+            {t('features.subtitle')}
           </p>
         </div>
 

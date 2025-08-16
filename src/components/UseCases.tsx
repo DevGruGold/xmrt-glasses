@@ -1,33 +1,41 @@
 
 import React from 'react';
-import { Users, User, Briefcase, School, Newspaper } from 'lucide-react';
+import { Briefcase, Handshake, Users, Presentation, Network, Heart } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const UseCases = () => {
+  const { t } = useTranslation();
+  
   const useCases = [
     {
-      icon: <Users className="w-12 h-12" />,
-      title: "Therapists & Counselors",
-      description: "Enhance therapeutic relationships by detecting subtle emotional shifts and non-verbal cues that traditional observation might miss."
-    },
-    {
-      icon: <User className="w-12 h-12" />,
-      title: "Law Enforcement & Investigators",
-      description: "Improve interview techniques and suspect assessment with real-time analysis of deception indicators and stress responses."
-    },
-    {
       icon: <Briefcase className="w-12 h-12" />,
-      title: "Negotiators & Sales Professionals",
-      description: "Close more deals by understanding client emotions, objections, and buying signals before they're verbally expressed."
+      title: t('useCases.sales.title'),
+      description: t('useCases.sales.description')
     },
     {
-      icon: <School className="w-12 h-12" />,
-      title: "Educators & Social Workers",
-      description: "Better support students and clients by recognizing emotional distress, engagement levels, and communication barriers."
+      icon: <Handshake className="w-12 h-12" />,
+      title: t('useCases.negotiations.title'),
+      description: t('useCases.negotiations.description')
     },
     {
-      icon: <Newspaper className="w-12 h-12" />,
-      title: "Journalists & Interviewers",
-      description: "Conduct more effective interviews by reading subject comfort levels and identifying moments for deeper questioning."
+      icon: <Users className="w-12 h-12" />,
+      title: t('useCases.interviews.title'),
+      description: t('useCases.interviews.description')
+    },
+    {
+      icon: <Presentation className="w-12 h-12" />,
+      title: t('useCases.presentations.title'),
+      description: t('useCases.presentations.description')
+    },
+    {
+      icon: <Network className="w-12 h-12" />,
+      title: t('useCases.networking.title'),
+      description: t('useCases.networking.description')
+    },
+    {
+      icon: <Heart className="w-12 h-12" />,
+      title: t('useCases.therapy.title'),
+      description: t('useCases.therapy.description')
     }
   ];
 
@@ -36,10 +44,10 @@ const UseCases = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Designed for Professional Excellence
+            {t('useCases.title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            XMRT Glasses empower professionals across industries to build stronger connections, make better decisions, and achieve superior outcomes.
+            {t('useCases.subtitle')}
           </p>
         </div>
 

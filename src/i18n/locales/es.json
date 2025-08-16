@@ -1,0 +1,194 @@
+{
+  "header": {
+    "brand": "XMRT",
+    "subtitle": "Lentes",
+    "features": "Características",
+    "useCases": "Casos de Uso",
+    "pricing": "Precios",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "requestDemo": "Solicitar Demo",
+    "buyNow": "Comprar Ahora"
+  },
+  "hero": {
+    "title": "Lee el Ambiente con",
+    "subtitle": "Inteligencia Emocional Potenciada por IA",
+    "description": "Los Lentes XMRT brindan insights en tiempo real sobre expresiones faciales y lenguaje corporal, dándote la ventaja en negociaciones, ventas e interacciones profesionales.",
+    "requestDemo": "Solicitar una Demo",
+    "buyNow": "Comprar Ahora",
+    "liveAnalysis": "Análisis en Vivo",
+    "confidence": "Confianza"
+  },
+  "features": {
+    "title": "Características Avanzadas",
+    "subtitle": "Tecnología de vanguardia diseñada para profesionales",
+    "realTime": {
+      "title": "Análisis en Tiempo Real",
+      "description": "Obtén insights instantáneos sobre estados emocionales y niveles de participación durante las conversaciones."
+    },
+    "expressions": {
+      "title": "Reconocimiento de Expresiones Faciales",
+      "description": "IA avanzada analiza micro-expresiones para detectar emociones y reacciones genuinas."
+    },
+    "bodyLanguage": {
+      "title": "Detección de Lenguaje Corporal",
+      "description": "Análisis integral de postura, gestos y patrones de movimiento."
+    },
+    "privacy": {
+      "title": "Enfocado en Privacidad",
+      "description": "Todo el procesamiento ocurre localmente en tu dispositivo. Tus datos nunca salen de tus lentes."
+    },
+    "battery": {
+      "title": "Batería Todo el Día",
+      "description": "Duración extendida de batería asegura rendimiento ininterrumpido durante toda tu jornada laboral."
+    },
+    "integration": {
+      "title": "Integración Perfecta",
+      "description": "Funciona con tus dispositivos y flujos de trabajo existentes sin interrupciones."
+    }
+  },
+  "useCases": {
+    "title": "Casos de Uso",
+    "subtitle": "Perfecto para diversos escenarios profesionales",
+    "sales": {
+      "title": "Reuniones de Ventas",
+      "description": "Comprende las reacciones del cliente y ajusta tu presentación en tiempo real para mejores tasas de cierre."
+    },
+    "negotiations": {
+      "title": "Negociaciones",
+      "description": "Obtén insights sobre el estado emocional de la otra parte y puntos de influencia durante discusiones críticas."
+    },
+    "interviews": {
+      "title": "Entrevistas de Trabajo",
+      "description": "Lee las reacciones del entrevistador y ajusta tus respuestas para causar una impresión más fuerte."
+    },
+    "presentations": {
+      "title": "Presentaciones",
+      "description": "Monitorea la participación de la audiencia y adapta tu entrega para máximo impacto."
+    },
+    "networking": {
+      "title": "Eventos de Networking",
+      "description": "Identifica interés genuino y construye conexiones profesionales más significativas."
+    },
+    "therapy": {
+      "title": "Sesiones de Terapia",
+      "description": "Ayuda a los terapeutas a comprender mejor los estados emocionales del cliente y momentos de avance."
+    }
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "subtitle": "Proceso simple de tres pasos para mejorar tus interacciones profesionales",
+    "step1": {
+      "title": "Usar y Activar",
+      "description": "Ponte tus Lentes XMRT y activa el modo de análisis con un simple comando de voz o gesto."
+    },
+    "step2": {
+      "title": "Análisis en Tiempo Real",
+      "description": "Nuestra IA procesa expresiones faciales y lenguaje corporal en tiempo real, proporcionando insights instantáneos."
+    },
+    "step3": {
+      "title": "Obtener Insights",
+      "description": "Recibe notificaciones discretas sobre estados emocionales, niveles de participación y patrones de comportamiento."
+    }
+  },
+  "pricing": {
+    "title": "Elige Tu Plan",
+    "subtitle": "Opciones de precios flexibles para satisfacer tus necesidades profesionales",
+    "hardware": {
+      "title": "Kit de Hardware",
+      "price": "$2,999",
+      "period": "único",
+      "features": [
+        "Lentes Inteligentes XMRT",
+        "Estuche de Carga",
+        "Opciones de Lentes Premium",
+        "Garantía de 1 Año",
+        "Configuración y Entrenamiento Gratis"
+      ],
+      "cta": "Ordenar Hardware"
+    },
+    "pro": {
+      "title": "Suscripción Pro App",
+      "price": "$99",
+      "period": "/mes",
+      "features": [
+        "Análisis en Tiempo Real",
+        "Detección Avanzada de Emociones",
+        "Insights de Lenguaje Corporal",
+        "Grabaciones y Analíticas de Reuniones",
+        "Sincronización y Respaldo en la Nube",
+        "Soporte Prioritario"
+      ],
+      "cta": "Iniciar Prueba Gratis"
+    },
+    "enterprise": {
+      "title": "Empresarial",
+      "price": "Precios",
+      "period": "personalizados",
+      "features": [
+        "Todo en Pro",
+        "Panel de Gestión de Equipos",
+        "Integración Personalizada",
+        "Implementación Local",
+        "Gerente de Cuenta Dedicado",
+        "Entrenamiento e Incorporación"
+      ],
+      "cta": "Contactar Ventas"
+    }
+  },
+  "about": {
+    "title": "Acerca de XMRT Solutions",
+    "description": "Somos pioneros en tecnología de inteligencia emocional, desarrollando soluciones de vanguardia que conectan la intuición humana con la inteligencia artificial.",
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Empoderar a profesionales con inteligencia emocional en tiempo real, permitiendo mejor comunicación, relaciones más fuertes y resultados más exitosos en cada interacción."
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "description": "Un mundo donde la tecnología mejore la empatía y comprensión humana, haciendo cada conversación más significativa y productiva."
+    },
+    "location": "San José, Costa Rica"
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "description": "¿Listo para revolucionar tus interacciones profesionales? Contáctanos hoy para aprender más sobre los Lentes XMRT.",
+    "email": "Email: hello@xmrt.com",
+    "followUs": "Síguenos:",
+    "form": {
+      "title": "Envíanos un Mensaje",
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre completo",
+      "email": "Email",
+      "emailPlaceholder": "tu.email@empresa.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos sobre tus necesidades...",
+      "send": "Enviar Mensaje",
+      "success": "¡Mensaje enviado exitosamente!"
+    },
+    "bookDemo": "Agendar Llamada Demo"
+  },
+  "footer": {
+    "description": "Revolucionando la comunicación profesional con inteligencia emocional potenciada por IA.",
+    "product": "Producto",
+    "features": "Características",
+    "pricing": "Precios",
+    "demo": "Solicitar Demo",
+    "company": "Empresa",
+    "about": "Acerca de Nosotros",
+    "contact": "Contacto",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "copyright": "© 2024 XMRT Solutions. Todos los derechos reservados."
+  },
+  "testimonials": {
+    "quote1": "Los Lentes XMRT han transformado cómo abordo las reuniones con clientes. Los insights en tiempo real me ayudan a leer el ambiente y ajustar mi estrategia instantáneamente.",
+    "author1": "Sarah Chen",
+    "role1": "Directora de Ventas, TechCorp",
+    "quote2": "Como negociador, entender señales emocionales sutiles es crucial. Estos lentes me dan una ventaja sin precedentes en discusiones de alto riesgo.",
+    "author2": "Marcus Rodriguez",
+    "role2": "Asesor Legal, Global Enterprises",
+    "quote3": "Los insights de inteligencia emocional me han hecho mejor terapeuta. Ahora puedo responder más efectivamente a las necesidades no expresadas de mis clientes.",
+    "author3": "Dra. Amira Hassan",
+    "role3": "Terapeuta Licenciada"
+  }
+}

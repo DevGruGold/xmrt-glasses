@@ -1,7 +1,10 @@
 
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
+  const { t } = useTranslation();
+  
   const scrollToContact = () => {
     const element = document.getElementById('contact');
     if (element) {
@@ -16,17 +19,15 @@ const Hero = () => {
           <div className="space-y-6 sm:space-y-8 text-center lg:text-left">
             <div className="space-y-3 sm:space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                XMRT <span className="text-teal-600">Glasses</span>
+                {t('hero.title')} <span className="text-teal-600">{t('header.subtitle')}</span>
               </h1>
               <p className="text-lg sm:text-xl lg:text-2xl text-gray-700 font-medium">
-                Real-Time Emotional Insight. Empower Every Conversation.
+                {t('hero.subtitle')}
               </p>
             </div>
             
             <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Break through communication barriers with AI-powered smart glasses that read facial expressions, 
-              body language, and emotional cues in real time. Transform how you connect, negotiate, and build 
-              relationships in your professional life.
+              {t('hero.description')}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
@@ -34,10 +35,10 @@ const Hero = () => {
                 onClick={scrollToContact}
                 className="bg-teal-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold hover:bg-teal-700 transition-all duration-300 transform hover:scale-105"
               >
-                Request a Demo
+                {t('hero.requestDemo')}
               </button>
               <button className="border-2 border-teal-600 text-teal-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold hover:bg-teal-600 hover:text-white transition-all duration-300">
-                Buy Now
+                {t('hero.buyNow')}
               </button>
             </div>
           </div>
@@ -51,8 +52,8 @@ const Hero = () => {
               />
             </div>
             <div className="absolute -bottom-2 sm:-bottom-4 -right-2 sm:-right-4 bg-white p-3 sm:p-4 rounded-xl shadow-lg">
-              <div className="text-xs sm:text-sm text-gray-600">Live Analysis</div>
-              <div className="text-sm sm:text-lg font-semibold text-teal-600">Confidence: 87%</div>
+              <div className="text-xs sm:text-sm text-gray-600">{t('hero.liveAnalysis')}</div>
+              <div className="text-sm sm:text-lg font-semibold text-teal-600">{t('hero.confidence')}: 87%</div>
             </div>
           </div>
         </div>
@@ -70,21 +71,23 @@ const Hero = () => {
 };
 
 const TestimonialSlider = () => {
+  const { t } = useTranslation();
+  
   const testimonials = [
     {
-      quote: "XMRT Glasses have transformed my therapy sessions. I can now pick up on subtle emotional cues I might have missed before.",
-      author: "Dr. Sarah Chen",
-      role: "Clinical Therapist"
+      quote: t('testimonials.quote1'),
+      author: t('testimonials.author1'),
+      role: t('testimonials.role1')
     },
     {
-      quote: "As a detective, reading people is crucial. These glasses give me an edge in interviews and interrogations.",
-      author: "Detective Mike Rodriguez",
-      role: "Law Enforcement"
+      quote: t('testimonials.quote2'),
+      author: t('testimonials.author2'),
+      role: t('testimonials.role2')
     },
     {
-      quote: "My negotiation success rate increased by 40% after using XMRT. The real-time insights are game-changing.",
-      author: "Jennifer Park",
-      role: "Corporate Negotiator"
+      quote: t('testimonials.quote3'),
+      author: t('testimonials.author3'),
+      role: t('testimonials.role3')
     }
   ];
 
