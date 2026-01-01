@@ -190,5 +190,56 @@
     "quote3": "情感智能洞察让我成为了更好的治疗师。我现在能够更有效地回应客户未表达的需求。",
     "author3": "Amira Hassan博士",
     "role3": "持证治疗师"
+  },
+  "preorder": {
+    "title": "预订XMRT眼镜",
+    "description": "成为首批体验AI驱动情感智能的用户。限时提供Kickstarter独家价格。",
+    "kickstarterBadge": "Kickstarter众筹进行中！",
+    "backHome": "返回首页",
+    "limitedTime": "限时优惠",
+    "guarantee": "30天无理由退款保证",
+    "backOnKickstarter": "在Kickstarter支持我们",
+    "watchCampaign": "观看众筹视频",
+    "chooseTier": "选择您的方案",
+    "tierDescription": "选择最适合您需求的套餐。所有方案均享受早鸟专属价格。",
+    "mostPopular": "最受欢迎",
+    "save": "节省",
+    "addToCart": "加入购物车",
+    "backedBy": "已获500+早期支持者信赖",
+    "earlyBird": {
+      "title": "早鸟硬件套装",
+      "badge": "省$100！",
+      "feature1": "XMRT智能眼镜",
+      "feature2": "高级收纳盒",
+      "feature3": "3个月Pro订阅",
+      "feature4": "1年质保"
+    },
+    "proBundle": {
+      "title": "专业套装",
+      "badge": "省$150！",
+      "feature1": "XMRT智能眼镜",
+      "feature2": "高级收纳盒",
+      "feature3": "12个月Pro订阅",
+      "feature4": "优先支持",
+      "feature5": "独家Beta功能"
+    },
+    "enterprise": {
+      "title": "企业套装",
+      "badge": "省$500！",
+      "feature1": "3副XMRT智能眼镜",
+      "feature2": "团队许可证（最多10用户）",
+      "feature3": "专属客户经理",
+      "feature4": "定制AI培训",
+      "feature5": "现场安装与培训"
+    }
+  },
+  "cart": {
+    "title": "购物车",
+    "empty": "购物车是空的",
+    "subtotal": "小计",
+    "discount": "Kickstarter折扣",
+    "total": "总计",
+    "backOnKickstarter": "在Kickstarter支持",
+    "clearCart": "清空购物车"
   }
 }

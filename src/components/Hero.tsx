@@ -1,15 +1,21 @@
 
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   
   const scrollToContact = () => {
     const element = document.getElementById('contact');
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+
+  const goToPreOrder = () => {
+    navigate('/pre-order');
   };
 
   return (
@@ -37,7 +43,10 @@ const Hero = () => {
               >
                 {t('hero.requestDemo')}
               </button>
-              <button className="border-2 border-teal-600 text-teal-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold hover:bg-teal-600 hover:text-white transition-all duration-300">
+              <button 
+                onClick={goToPreOrder}
+                className="border-2 border-teal-600 text-teal-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold hover:bg-teal-600 hover:text-white transition-all duration-300"
+              >
                 {t('hero.buyNow')}
               </button>
             </div>

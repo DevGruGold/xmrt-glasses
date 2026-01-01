@@ -1,13 +1,19 @@
-
 import React from 'react';
 import { Check } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const Pricing = () => {
+  const navigate = useNavigate();
+
   const scrollToContact = () => {
     const element = document.getElementById('contact');
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+
+  const goToPreOrder = () => {
+    navigate('/pre-order');
   };
 
   return (
@@ -50,7 +56,10 @@ const Pricing = () => {
               </li>
             </ul>
 
-            <button className="w-full bg-gray-200 text-gray-800 py-3 rounded-lg font-semibold hover:bg-gray-300 transition-colors">
+            <button 
+              onClick={goToPreOrder}
+              className="w-full bg-gray-200 text-gray-800 py-3 rounded-lg font-semibold hover:bg-gray-300 transition-colors"
+            >
               Buy Now
             </button>
           </div>
@@ -92,7 +101,10 @@ const Pricing = () => {
               </li>
             </ul>
 
-            <button className="w-full bg-teal-600 text-white py-3 rounded-lg font-semibold hover:bg-teal-700 transition-colors">
+            <button 
+              onClick={goToPreOrder}
+              className="w-full bg-teal-600 text-white py-3 rounded-lg font-semibold hover:bg-teal-700 transition-colors"
+            >
               Get Started
             </button>
           </div>

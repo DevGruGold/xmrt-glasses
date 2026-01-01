@@ -190,5 +190,56 @@
     "quote3": "The emotional intelligence insights have made me a better therapist. I can now respond more effectively to my clients' unspoken needs.",
     "author3": "Dr. Amira Hassan",
     "role3": "Licensed Therapist"
+  },
+  "preorder": {
+    "title": "Pre-Order XMRT Glasses",
+    "description": "Be among the first to experience AI-powered emotional intelligence. Exclusive Kickstarter pricing available for a limited time.",
+    "kickstarterBadge": "Kickstarter Campaign Live!",
+    "backHome": "Back to Home",
+    "limitedTime": "Limited Time Offer",
+    "guarantee": "30-Day Money Back Guarantee",
+    "backOnKickstarter": "Back Us on Kickstarter",
+    "watchCampaign": "Watch Our Campaign",
+    "chooseTier": "Choose Your Tier",
+    "tierDescription": "Select the package that best fits your needs. All tiers include exclusive early-bird pricing.",
+    "mostPopular": "Most Popular",
+    "save": "Save",
+    "addToCart": "Add to Cart",
+    "backedBy": "Backed by 500+ Early Supporters",
+    "earlyBird": {
+      "title": "Early Bird Hardware",
+      "badge": "Save $100!",
+      "feature1": "XMRT Smart Glasses",
+      "feature2": "Premium Carrying Case",
+      "feature3": "3 Months Pro Subscription",
+      "feature4": "1-Year Warranty"
+    },
+    "proBundle": {
+      "title": "Pro Bundle",
+      "badge": "Save $150!",
+      "feature1": "XMRT Smart Glasses",
+      "feature2": "Premium Carrying Case",
+      "feature3": "12 Months Pro Subscription",
+      "feature4": "Priority Support",
+      "feature5": "Exclusive Beta Features"
+    },
+    "enterprise": {
+      "title": "Enterprise Pack",
+      "badge": "Save $500!",
+      "feature1": "3x XMRT Smart Glasses",
+      "feature2": "Team License (Up to 10 users)",
+      "feature3": "Dedicated Account Manager",
+      "feature4": "Custom AI Training",
+      "feature5": "On-site Setup & Training"
+    }
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "subtotal": "Subtotal",
+    "discount": "Kickstarter Discount",
+    "total": "Total",
+    "backOnKickstarter": "Back on Kickstarter",
+    "clearCart": "Clear Cart"
   }
 }
