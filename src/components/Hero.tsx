@@ -57,7 +57,7 @@ const Hero = () => {
               <img 
                 src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80" 
                 alt="Professional conversation with XMRT Glasses providing real-time emotional insights"
-                className="w-full h-64 sm:h-80 lg:h-96 object-cover rounded-xl shadow-2xl"
+                className="w-full h-64 sm:h-80 lg:h-96 object-cover object-top rounded-xl shadow-2xl"
               />
             </div>
             <div className="absolute -bottom-2 sm:-bottom-4 -right-2 sm:-right-4 bg-white p-3 sm:p-4 rounded-xl shadow-lg">
