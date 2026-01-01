@@ -1,13 +1,19 @@
-
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 import { ToggleGroup, ToggleGroupItem } from './ui/toggle-group';
+import Cart from './Cart';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
 
+  const goToPreOrder = () => {
+    navigate('/pre-order');
+    setIsMenuOpen(false);
+  };
   const changeLanguage = (language: string) => {
     i18n.changeLanguage(language);
     document.documentElement.lang = language;
@@ -81,9 +87,13 @@ const Header = () => {
             >
               {t('header.requestDemo')}
             </button>
-            <button className="bg-teal-600 text-white px-3 lg:px-4 py-2 rounded-lg text-sm lg:text-base hover:bg-teal-700 transition-colors">
+            <button 
+              onClick={goToPreOrder}
+              className="bg-teal-600 text-white px-3 lg:px-4 py-2 rounded-lg text-sm lg:text-base hover:bg-teal-700 transition-colors"
+            >
               {t('header.buyNow')}
             </button>
+            <Cart />
           </div>
 
           <button 
@@ -148,9 +158,15 @@ const Header = () => {
                 >
                   {t('header.requestDemo')}
                 </button>
-                <button className="w-full bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700 text-sm">
+                <button 
+                  onClick={goToPreOrder}
+                  className="w-full bg-teal-600 text-white px-4 py-2 rounded-lg hover:bg-teal-700 text-sm"
+                >
                   {t('header.buyNow')}
                 </button>
+              </div>
+              <div className="px-3 py-2 flex justify-center">
+                <Cart />
               </div>
             </div>
           </div>

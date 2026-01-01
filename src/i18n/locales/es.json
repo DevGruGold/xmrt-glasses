@@ -190,5 +190,56 @@
     "quote3": "Los insights de inteligencia emocional me han hecho mejor terapeuta. Ahora puedo responder más efectivamente a las necesidades no expresadas de mis clientes.",
     "author3": "Dra. Amira Hassan",
     "role3": "Terapeuta Licenciada"
+  },
+  "preorder": {
+    "title": "Pre-Ordena los Lentes XMRT",
+    "description": "Sé de los primeros en experimentar la inteligencia emocional potenciada por IA. Precios exclusivos de Kickstarter disponibles por tiempo limitado.",
+    "kickstarterBadge": "¡Campaña Kickstarter Activa!",
+    "backHome": "Volver al Inicio",
+    "limitedTime": "Oferta por Tiempo Limitado",
+    "guarantee": "Garantía de Devolución de 30 Días",
+    "backOnKickstarter": "Apóyanos en Kickstarter",
+    "watchCampaign": "Ver Nuestra Campaña",
+    "chooseTier": "Elige Tu Nivel",
+    "tierDescription": "Selecciona el paquete que mejor se adapte a tus necesidades. Todos los niveles incluyen precios exclusivos de early-bird.",
+    "mostPopular": "Más Popular",
+    "save": "Ahorra",
+    "addToCart": "Agregar al Carrito",
+    "backedBy": "Respaldado por 500+ Primeros Patrocinadores",
+    "earlyBird": {
+      "title": "Early Bird Hardware",
+      "badge": "¡Ahorra $100!",
+      "feature1": "Lentes Inteligentes XMRT",
+      "feature2": "Estuche Premium",
+      "feature3": "3 Meses Suscripción Pro",
+      "feature4": "Garantía de 1 Año"
+    },
+    "proBundle": {
+      "title": "Bundle Pro",
+      "badge": "¡Ahorra $150!",
+      "feature1": "Lentes Inteligentes XMRT",
+      "feature2": "Estuche Premium",
+      "feature3": "12 Meses Suscripción Pro",
+      "feature4": "Soporte Prioritario",
+      "feature5": "Funciones Beta Exclusivas"
+    },
+    "enterprise": {
+      "title": "Pack Empresarial",
+      "badge": "¡Ahorra $500!",
+      "feature1": "3x Lentes Inteligentes XMRT",
+      "feature2": "Licencia de Equipo (Hasta 10 usuarios)",
+      "feature3": "Gerente de Cuenta Dedicado",
+      "feature4": "Entrenamiento IA Personalizado",
+      "feature5": "Configuración y Entrenamiento en Sitio"
+    }
+  },
+  "cart": {
+    "title": "Tu Carrito",
+    "empty": "Tu carrito está vacío",
+    "subtotal": "Subtotal",
+    "discount": "Descuento Kickstarter",
+    "total": "Total",
+    "backOnKickstarter": "Apoyar en Kickstarter",
+    "clearCart": "Vaciar Carrito"
   }
 }
